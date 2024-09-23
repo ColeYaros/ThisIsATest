@@ -1,0 +1,95 @@
+
+
+body {
+    background-color: tan;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.vis-small{
+    display: none;
+}
+
+.topnav{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    /* vertical-align: baseline; */
+    border: 0;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+
+.topnav a {
+    color:  white;
+    text-align: center;
+    padding: 5.5px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover{
+    background-color: green;
+}
+
+@media screen and (width <= 1250px){
+    .vis-small{
+        display: block;
+        color: white;
+    }
+    .vis-large{
+        font-size: 0px;
+    }
+    body{
+        background-color: blue;
+    }
+}
+
+.button {
+    position: fixed;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border: none;
+    top: 90%;
+    left: 95%;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+.topbox {
+    height: 200px;
+    width: 100%;
+    margin: 0px;   
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toptext {
+    margin: 0px;
+
+}
+
+.divleft {
+    width: 30%;
+    height: 600px;
+    margin: 0px;
+    float: left;
+    background-color: lightgrey;
+}
+
+.divmain {
+    width: 70%;
+    height: 600px;
+    margin: 0px;
+    float: left;
+    background-color: white;
+}
